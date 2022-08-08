@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <h3 class="description level-best">Level Best : 0</h3>
+  <div class="container">
+    <div lass="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+  
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="description">
+
+    <h3>Instructions</h3>
+    <p>* Press any key to start the simon</p>
+    <p>* Everytime Simon will give only one signal</p>
+    <p>* Repeat Simon's signal imme- diately</p>
+    <p>* If the signal is correct simon will provide another signal</p>
+    <p>* Repeat the previous signals' by adding the new signal given by Simon's</p>
+    <p>* Continue repeating the signals of the previous sequence and increas- ing that sequence by one. Try to reach the longest sequence of 21!</p>
+    <p>* If you make an error or take more than 5 seconds to play any signal, you'll hear the "RAZZ" sound. This means the game is over.</p>
+
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
